@@ -1,3 +1,9 @@
+'''
+Enunciado:
+Haga una lista llamada ordenes_de_sandwiches y llénela con 20 líneas con nombres de 5 tipos de sandwiches. Luego haga una lista vacía llamada sandwiches_terminados. Recorra con un loop la lista ordenes_de_sandwiches e imprima un mensaje para cada pedido, como “Su sandwich de atún ya está preparado”. A medida que se termina de preparar cada sandwich, el programa debe moverlo a la lista sandwiches_terminados. Una vez preparados todos los sándwiches, imprima un mensaje que enumere cada sandwich que se preparó.
+Luego, utilizando la lista ordenes_de_sandwiches, asegúrese de que el sandwich 'Barros Luco' aparece en la lista al menos tres veces. Agregar código cerca del comienzo de su programa para imprimir un mensaje que diga que el local se ha quedado sin “Barros Luco”. Luego use un loop while para eliminar todas las apariciones de 'Barros Luco' de ordenes_de_sandwiches. Asegúrese de que no terminen los sándwiches “Barros Luco” en sandwiches terminados.
+'''
+
 import random  # Se importa random para generar aleatorio
 
 # Declaro variables
