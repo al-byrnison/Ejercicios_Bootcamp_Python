@@ -76,7 +76,6 @@ while len(ordenes_de_sandwitch) > 0:
     # en cada iteracion mostrara el listado de los sandwitches listos
     print('\nSandwitches listos:\n')
     print(sandwitches_listos, '\n')
-
 # una vez vacia la lista ordenes_de_sandwitch mostrara
 # el siguiente mensaje y terminara la ejecucion
 print('Lamentablemente ya no quedan sandwitches :(\n')
