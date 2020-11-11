@@ -17,7 +17,7 @@ def pedir_valor():
             time.sleep(1)
             l.clear()
             continue
-        if valor < 1000000:  # si el valor ingresado es menor a 1.000.000 saldra del bucle con break
+        if valor < 1000000 and valor >= 0:  # si el valor ingresado es menor a 1.000.000 saldra del bucle con break
             break
         else:  # si el valor es mayor a 1.000.000 dara mensaje de error y volvera a iterar
             print('\nEl valor ingresado no es valido\n')
