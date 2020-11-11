@@ -1,6 +1,8 @@
-import os, sys
+import os
+import sys
 
-def cleaning():
+
+def clear():
     if sys.platform.startswith('win'):
         os.system('cls')
     elif sys.platform.startswith('darwin'):
@@ -8,7 +10,8 @@ def cleaning():
     elif sys.platform.startswith('linux'):
         os.system('clear')
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     print('hola')
 
-    cleaning()
+    clear()
